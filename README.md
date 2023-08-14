@@ -71,3 +71,11 @@ Close #~~
    - hotfix PR (논의를 통한 정리 필요)
      - hotfix의 경우, 상황에 따라 main으로 직접 변경사항을 적용해야 할 수 있음
      - main으로의 PR을 생성함과 동시에 develop으로의 PR을 생성하는 것으로 이를 해결할 수 있다고 생각함
+
+
+# Tech Stack
+---
+## Backend
+- 
+## Frontend
+- 
