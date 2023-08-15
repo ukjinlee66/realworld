@@ -75,7 +75,11 @@ Close #~~
 
 # Tech Stack
 ---
+### 자세한 버전도 추후에 명시해주세요.
 ## Backend
-- 
+- spring Webflux
+- MySQL
+- spring security
+- (ELK Stack)
 ## Frontend
 - 
