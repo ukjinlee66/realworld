@@ -1,27 +1,31 @@
 ## Git Convention
 
-------
+---
 
 ## Commit Message Format
 
 ```
-type: subject
+:emoji: subject
 
 body (optional)
 ```
 
 ## Type
 
-| 종류     | 설명                                                         |
-| -------- | ------------------------------------------------------------ |
-| feat     | 새로운 기능 추가                                             |
-| fix      | 버그 수정                                                    |
-| docs     | 문서 수정                                                    |
-| style    | 코드 formatting, 세미콜론(;) 누락, 코드 변경이 없는 경우     |
-| refactor | 코드 리팩터링                                                |
-| test     | 테스트 코드, 리팩터링 테스트 코드 추가(프로덕션 코드 변경 X) |
-| chore    | 빌드 업무 수정, 패키지 매니저 수정(프로덕션 코드 변경 X)     |
-| ci       | CI 관련 변경 사항                                            |
+Gitmoji를 활용
+
+| 종류 | 설명                                                         |
+| ---- | ------------------------------------------------------------ |
+| ✨   | 새로운 기능 추가                                             |
+| 🐛   | 버그 수정                                                    |
+| 📝   | 문서 수정                                                    |
+| 🎨   | 코드 formatting, 세미콜론(;) 누락, 코드 변경이 없는 경우     |
+| ♻️   | 코드 리팩터링                                                |
+| ✅   | 테스트 코드, 리팩터링 테스트 코드 추가(프로덕션 코드 변경 X) |
+| 👷   | 빌드 업무 수정, 패키지 매니저 수정(프로덕션 코드 변경 X)     |
+| 💚   | CI 관련 변경 사항                                            |
+
+자세한 사항은 [링크](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-Gitmoji-%EC%82%AC%EC%9A%A9%EB%B2%95-Gitmoji-cli)참조
 
 ## PR Template
 
@@ -72,14 +76,19 @@ Close #~~
      - hotfix의 경우, 상황에 따라 main으로 직접 변경사항을 적용해야 할 수 있음
      - main으로의 PR을 생성함과 동시에 develop으로의 PR을 생성하는 것으로 이를 해결할 수 있다고 생각함
 
-
 # Tech Stack
+
 ---
+
 ### 자세한 버전도 추후에 명시해주세요.
+
 ## Backend
+
 - spring Webflux
 - MySQL
 - spring security
 - (ELK Stack)
+
 ## Frontend
-- 
+
+-
