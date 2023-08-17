@@ -73,6 +73,9 @@ Close #~~
      - main으로의 PR을 생성함과 동시에 develop으로의 PR을 생성하는 것으로 이를 해결할 수 있다고 생각함
 
 
+# collaboration tool
+- jira - [https://tmaxreal.atlassian.net/jira/software/projects/TMAX/boards/1]
+
 # Tech Stack
 ---
 ### 자세한 버전도 추후에 명시해주세요.
@@ -81,5 +84,6 @@ Close #~~
 - MySQL
 - spring security
 - (ELK Stack)
+- spring batch(고려 사항)
 ## Frontend
 - 
