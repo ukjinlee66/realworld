@@ -76,6 +76,10 @@ Close #~~
      - hotfix의 경우, 상황에 따라 main으로 직접 변경사항을 적용해야 할 수 있음
      - main으로의 PR을 생성함과 동시에 develop으로의 PR을 생성하는 것으로 이를 해결할 수 있다고 생각함
 
+# collaboration tool
+
+- jira - [https://tmaxreal.atlassian.net/jira/software/projects/TMAX/boards/1]
+
 # Tech Stack
 
 ---
@@ -88,6 +92,7 @@ Close #~~
 - MySQL
 - spring security
 - (ELK Stack)
+- spring batch(고려 사항)
 
 ## Frontend
 
