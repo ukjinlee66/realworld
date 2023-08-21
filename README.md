@@ -96,4 +96,12 @@ Close #~~
 
 ## Frontend
 
--
+- Vite 4.4.5
+- React 18.2.0
+- TypeScript 5.0.2
+- recoil 0.7.7
+- React-query 4.32.6
+- Storybook 7.3.2
+- styled-components 5.3.11
+- React-Testing-Library 14.0.0
+- Jest 29.6.2
