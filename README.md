@@ -91,12 +91,4 @@ Close #~~
 
 ## Frontend
 
-- ReactJS: ^18.2.0
-- TypeScript: ^5.0.2
-- Vite: ^4.4.5
-- Styled-Components: ^6.0.7
-- React-Query: ^4.32.6
-- (React-Testing-Library)
-- (Recoil)
-- (Yarn Berry)
-- (Storybook)
+-
