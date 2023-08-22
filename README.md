@@ -72,6 +72,9 @@ Close #~~
      - hotfix의 경우, 상황에 따라 main으로 직접 변경사항을 적용해야 할 수 있음
      - main으로의 PR을 생성함과 동시에 develop으로의 PR을 생성하는 것으로 이를 해결할 수 있다고 생각함
 
+# ERD
+![image](https://github.com/ukjinlee66/realworld/assets/43813141/74ba2a80-b149-4c0b-87ea-a1e7241135f8)
+
 
 # collaboration tool
 - jira - [https://tmaxreal.atlassian.net/jira/software/projects/TMAX/boards/1]
