@@ -17,7 +17,7 @@ function Layout({ children }: LayoutType) {
 }
 
 const Main = styled.main`
-  min-height: 700px;
+  min-height: calc(100vh - 160px);
 `;
 
 export default Layout;

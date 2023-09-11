@@ -9,6 +9,8 @@ function Footer() {
   );
 }
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  height: 80px;
+`;
 
 export default Footer;

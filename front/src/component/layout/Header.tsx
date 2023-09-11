@@ -17,6 +17,7 @@ function Header() {
 }
 
 const Container = styled.div`
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +27,7 @@ const Container = styled.div`
 const Logo = styled.div`
   color: ${({ theme }) => theme.color.primary};
   font-weight: 800;
-  font-size: xx-large;
+  font-size: 2rem;
   text-shadow: 2px 2px 2px ${({ theme }) => theme.color.gray2};
   cursor: pointer;
 `;

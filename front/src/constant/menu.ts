@@ -1,3 +1,5 @@
+import { URI } from './uri';
+
 type MenuOptionType = {
   name: string;
   uri: string;
@@ -5,12 +7,12 @@ type MenuOptionType = {
 };
 
 const menuInfo = {
-  Home: { name: 'Home', uri: '/' },
-  SignIn: { name: 'Sign in', uri: '/signIn', auth: false },
-  SignUp: { name: 'Sign up', uri: '/signUp', auth: false },
-  NewArticle: { name: 'New Article', uri: '/article', auth: true },
-  Settings: { name: 'Settings', uri: '/setting', auth: true },
-  User: { name: 'User', uri: '/user', auth: true },
+  Home: { name: 'Home', uri: URI.Home },
+  SignIn: { name: 'Sign in', uri: URI.SignIn, auth: false },
+  SignUp: { name: 'Sign up', uri: URI.SignUp, auth: false },
+  NewArticle: { name: 'New Article', uri: URI.NewArticle, auth: true },
+  Settings: { name: 'Settings', uri: URI.Settings, auth: true },
+  User: { name: 'User', uri: URI.User, auth: true },
 };
 
 type MenuType = keyof typeof menuInfo;

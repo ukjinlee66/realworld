@@ -25,7 +25,7 @@ const Wrapper = styled.div`
 `;
 
 const Item = styled.div`
-  font-size: large;
+  font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
   color: ${({ theme }) => theme.color.gray4};
