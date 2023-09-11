@@ -1,16 +1,14 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import URL from '../constant/URL';
+import { Route, Routes } from 'react-router-dom';
+import { MENULIST } from '../constant/menu';
 import MainPage from '../page/MainPage/MainPage';
 import NotFoundPage from '../page/NotFoundPage/NotFoundPage';
 
 function Router() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path={URL.MAIN} element={<MainPage />} />
-        <Route path='*' element={<NotFoundPage />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path={MENULIST.Home.uri} element={<MainPage />} />
+      <Route path='*' element={<NotFoundPage />} />
+    </Routes>
   );
 }
 

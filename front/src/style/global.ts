@@ -3,10 +3,10 @@ import './reset.css';
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    background-color: ${({ theme }) => theme.white};
+    background-color: ${({ theme }) => theme.color.white};
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;

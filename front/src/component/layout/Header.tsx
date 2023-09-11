@@ -1,19 +1,34 @@
-import React from 'react';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
+import Nav from './Nav';
+import { DefaultContainer } from '../../style/common';
+import { MENULIST } from '../../constant/menu';
 
 function Header() {
+  const navigate = useNavigate();
   return (
-    <Container>
-      <div>conduit</div>
-      <div>tags</div>
-    </Container>
+    <DefaultContainer>
+      <Container>
+        <Logo onClick={() => navigate(MENULIST.Home.uri)}>REAL FT</Logo>
+        <Nav />
+      </Container>
+    </DefaultContainer>
   );
 }
 
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 8px 16px;
+  align-items: center;
+  padding: 10px 0px;
+`;
+
+const Logo = styled.div`
+  color: ${({ theme }) => theme.color.primary};
+  font-weight: 800;
+  font-size: xx-large;
+  text-shadow: 2px 2px 2px ${({ theme }) => theme.color.gray2};
+  cursor: pointer;
 `;
 
 export default Header;

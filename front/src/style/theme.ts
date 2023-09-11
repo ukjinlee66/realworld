@@ -1,4 +1,4 @@
-export const theme = {
+const color = {
   primary: '#5CB85C',
   secondary: '#ECECDA',
   success: '#00A7FF', // 성공
@@ -11,4 +11,19 @@ export const theme = {
   gray3: '#A5ABB1', // 플레이스홀더
   gray4: '#6F7880', // button
   gray5: '#585E65', // 서브내용
+};
+
+const deviceSize = {
+  mobile: '375px',
+  tablet: '768px',
+};
+
+const device = {
+  mobile: `screen and (max-width: ${deviceSize.mobile})`,
+  tablet: `screen and (max-width: ${deviceSize.tablet})`,
+};
+
+export const theme = {
+  color,
+  device,
 };
