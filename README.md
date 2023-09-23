@@ -1,4 +1,3 @@
-## Git Convention
 
 ---
 
@@ -78,7 +77,8 @@ Close #~~
 
 # ERD
 
-![image](https://github.com/ukjinlee66/realworld/assets/43813141/74ba2a80-b149-4c0b-87ea-a1e7241135f8)
+![image](https://github.com/ukjinlee66/realworld/assets/52191425/9b815ac1-88c8-4fb6-9c72-86ae990995ed)
+
 
 # collaboration tool
 
