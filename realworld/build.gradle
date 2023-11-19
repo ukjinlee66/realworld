@@ -26,15 +26,20 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+//	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+
+	// r2dbc MySQL
+	implementation 'org.springframework.data:spring-data-bom:2023.0.2'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation "org.springframework.boot:spring-boot-starter-data-r2dbc"
+	implementation "com.github.jasync-sql:jasync-r2dbc-mysql:2.0.8"
 
 	// Apache common lang : StringUtils
 	implementation 'org.apache.commons:commons-lang3:3.9'
@@ -45,6 +50,8 @@ dependencies {
 
 	// Redis Setting
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+	implementation 'io.netty:netty-resolver-dns-native-macos:4.1.68.Final:osx-aarch_64'
 }
 
 tasks.named('test') {

@@ -39,7 +39,7 @@ public class CommonResponse<T> {
     public static CommonResponse fail(ErrorCode errorCode) {
         return CommonResponse.builder()
             .result(Result.FAIL)
-            .message(errorCode.getCode())
+            .message(errorCode.getMessage())
             .errorCode(errorCode)
             .build();
     }
